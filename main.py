@@ -4,7 +4,8 @@ from PIL import Image, ImageEnhance
 from selenium import webdriver
 from selenium.webdriver.common.by import By
  
-url = "http://10.28.63.116:8081/loginAction.do"
+#教务系统url
+url = ""
 
 def work(user_data,pass_data):
     # 1、打开浏览器，最大化浏览器
